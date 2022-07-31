@@ -37,25 +37,13 @@ var db = {
                 product.category_keys.includes(categoryData.key)
             )
         },
+        getFeaturedProducts() {
+            return products.filter((product) =>
+                config.popularProducts.includes(product.sku)
+            );
+        },
         getRandomProductsFromCategory(category, amount) {
             return shuffle(products.filter(x => x.categories.includes(category))).slice(0, amount)
-        },
-        getRandomProducts(amount) {
-            return shuffle(products).slice(0, amount)
-        },
-        getWinnerProducts(amount) {
-            if (config.winnerProducts.length === 0) {
-                return shuffle(products).slice(0, amount)
-            } else {
-                return shuffle(products.filter(x => config.winnerProducts.includes(x.sku)).slice(0, amount))
-            }
-        },
-        getPopularProducts(amount) {
-            if (config.popularProducts.length === 0) {
-                return shuffle(products).slice(0, amount)
-            } else {
-                return shuffle(products.filter(x => config.popularProducts.includes(x.sku)).slice(0, amount))
-            }
         }
     },
     categories: {
@@ -74,23 +62,17 @@ var db = {
 
             return categoryData
         },
-        getFeaturedCategories(amount) {
+        getFeaturedCategories() {
             // categorien holen
-
-            if (config.featuredCategories.length === 0) {
-                return shuffle(categories).slice(0, amount)
-            } else {
-
-                let featuredCategories = [];
-                for (let i = 0; i < config.featuredCategories.length; i++) {
-                    let category = categories.find(
-                        (x) => x.name === config.featuredCategories[i]
-                    );
-                    featuredCategories.push(category);
-                }
-
-                return featuredCategories.slice(0, amount)
+            let featuredCategories = [];
+            for (let i = 0; i < config.featuredCategories.length; i++) {
+                let category = categories.find(
+                    (x) => x.name === config.featuredCategories[i]
+                );
+                featuredCategories.push(category);
             }
+
+            return featuredCategories
         }
     },
     brands: {

@@ -26,7 +26,7 @@
 import config from "~/assets/data/config.json";
 import db from "~/utils/database.js";
 
-const featuredProducts = db.products.getPopularProducts(6);
+const featuredProducts = db.products.getFeaturedProducts();
 
 export default {
   name: "popularProducts",

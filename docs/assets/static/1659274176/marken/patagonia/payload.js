@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/marken/patagonia", {data:[{_img:{"/_ipx/f_webp,q_90,s_407x229/assets/images/images/patagonia-w-s-insulated-snowbelle-jkt-skijacke-patagonia-5637639197.jpg":"\u002Fassets\u002Fimages\u002Fpatagonia-w-s-insulated-snowbelle-jkt-skijacke-patagonia-5637639197.webp"}}],fetch:{},mutations:void 0});

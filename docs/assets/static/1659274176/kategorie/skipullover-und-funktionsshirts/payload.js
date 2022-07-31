@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/kategorie/skipullover-und-funktionsshirts", {data:[{_img:{"/_ipx/f_webp,q_90,s_407x229/assets/images/images/icebreaker-m-260-zone-ls-crewe-funktionsshirt-icebreaker-5637827218.jpg":"\u002Fassets\u002Fimages\u002Ficebreaker-m-260-zone-ls-crewe-funktionsshirt-icebreaker-5637827218.webp"}}],fetch:{},mutations:void 0});

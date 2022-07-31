@@ -25,9 +25,10 @@
 <script>
 import config from "~/assets/data/config.json";
 import products from "~/assets/data/products.json";
-import db from "~/utils/database.js";
 
-const winnerProducts = db.products.getWinnerProducts(6);
+const winnerProducts = products.filter((product) =>
+  config.winnerProducts.includes(product.sku)
+);
 
 export default {
   name: "testsieger",

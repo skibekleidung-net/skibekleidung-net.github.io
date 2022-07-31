@@ -60,14 +60,22 @@
         </ul>
         <hr /> -->
 
-        <div class="dropdown" v-for="(category, index) in categories" :key="index">
+        <div
+          class="dropdown"
+          v-for="(category, index) in categories"
+          :key="index"
+        >
           <nuxt-link
             :to="`/kategorie/${category.slug}/`"
             :title="`${category.name}`"
             class="d-flex align-items-center text-white text-decoration-none"
-            :class="category.subCategories.length >= 1 ? 'dropdown-toggle' : false"
+            :class="
+              category.subCategories.length >= 1 ? 'dropdown-toggle' : false
+            "
             id="dropdownUser1"
-            :data-bs-toggle="category.subCategories.length >= 1 ? 'dropdown' : false"
+            :data-bs-toggle="
+              category.subCategories.length >= 1 ? 'dropdown' : false
+            "
             aria-expanded="false"
           >
             <!-- <img
@@ -104,16 +112,29 @@
 import config from "~/assets/data/config.json";
 import categories from "~/assets/data/categories.json";
 import products from "~/assets/data/products.json";
-import db from "~/utils/database.js";
 
-const featuredCategories = db.categories.getFeaturedCategories(6);
+// we want unique values in the brands array
+function onlyUnique(value, index, self) {
+  return self.indexOf(value) === index;
+}
+
+let brands = [];
+for (let i = 0; i <= products.length; i++) {
+  try {
+    brands.push(products[i].brand);
+  } catch {
+    // console.log("no brands key");
+  }
+}
+
+brands = brands.filter(onlyUnique);
 
 export default {
   name: "categorySidebar",
   data() {
     return {
       config,
-      categories: featuredCategories,
+      categories,
     };
   },
 };

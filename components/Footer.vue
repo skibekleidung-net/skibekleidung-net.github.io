@@ -24,10 +24,13 @@
           <div class="col-lg-3 col-md-6" id="kontakt">
             <div class="text-white mb-3 h4">Kontakt</div>
             <p class="mb-2">
-              <i class="fa fa-map-marker-alt me-3"></i>{{ config.companyAddress }}
+              <i class="fa fa-map-marker-alt me-3"></i
+              >{{ config.companyAddress }}
             </p>
             <!-- <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p> -->
-            <p class="mb-2"><i class="fa fa-envelope me-3"></i>{{ config.email }}</p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>{{ config.email }}
+            </p>
             <div class="d-flex pt-2">
               <a
                 v-for="(account, index) in config.socialMediaAccounts.filter(
@@ -46,8 +49,15 @@
           <div class="col-lg-3 col-md-6">
             <div class="text-white mb-3 h4">Galerie</div>
             <div class="row g-2 pt-2">
-              <div class="col-4" v-for="(product, index) in popularProducts" :key="index">
-                <NuxtLink :to="`/produkt/${product.slug}/`" :title="product.linkTitle">
+              <div
+                class="col-4"
+                v-for="(product, index) in featuredProducts"
+                :key="index"
+              >
+                <NuxtLink
+                  :to="`/produkt/${product.slug}/`"
+                  :title="product.linkTitle"
+                >
                   <nuxt-img
                     preset="footerThumbnail"
                     class="img-fluid bg-light p-1"
@@ -125,8 +135,8 @@
 import config from "~/assets/data/config.json";
 import db from "~/utils/database.js";
 
-const featuredCategories = db.categories.getFeaturedCategories(6);
-const popularProducts = db.products.getPopularProducts(6);
+const featuredCategories = db.categories.getFeaturedCategories();
+const featuredProducts = db.products.getFeaturedProducts();
 
 export default {
   name: "footerComponent",
@@ -134,7 +144,7 @@ export default {
     return {
       config,
       featuredCategories,
-      popularProducts,
+      featuredProducts: featuredProducts.slice(0, 6),
     };
   },
 };

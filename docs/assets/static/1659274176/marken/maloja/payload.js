@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/marken/maloja", {data:[{_img:{"/_ipx/f_webp,q_90,s_407x229/assets/images/images/maloja-seliam-langlaufjacke-maloja-5637652288.jpg":"\u002Fassets\u002Fimages\u002Fmaloja-seliam-langlaufjacke-maloja-5637652288.webp"}}],fetch:{},mutations:void 0});
