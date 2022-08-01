@@ -3,7 +3,7 @@
     "hostname": "https://www.skibekleidung.net",
     "email": "skibekleidung.net@surrealnetworks.io",
     "organization": "skibekleidung.net",
-    "logoText": "skibekleidung.net",                                             
+    "logoText": "skibekleidung.net",
     "title": "Skibekleidung | Günstige Skibekleidung kaufen",
     "subline": "Wenn du auf der Suche nach der besten Kleidung für dein Skisport bist, dann bist du hier richtig.",
     "companyAddress": "Uvoz 159/26 - Praha 1 - Hradcany, CZ",
@@ -14,9 +14,23 @@
     "numberMaximumProductsPerCategory": 100,
     "numberOfRelevantProduct": 12,
     "popularProducts": [
-        ],                          
-    "winnerProducts": [],
-    "featuredCategories": [],
+        "5637858598",
+        "5637274557",
+        "5637755835"
+    ],
+    "winnerProducts": [
+        "5637866722",
+        "5637744871",
+        "5637656959"
+    ],
+    "featuredCategories": [
+        "Skiunterwäsche",
+        "Skijacken",
+        "Skihosen",
+        "Langlaufjacken und Langlaufwesten",
+        "Skihandschuhe und Ski-Accessoires",
+        "Skipullover und Funktionsshirts"
+    ],
     "socialMediaAccounts": [{
         "name": "Twitter",
         "link": "https://www.twitter.com/skibekleidung-net",

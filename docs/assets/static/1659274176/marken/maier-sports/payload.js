@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/marken/maier-sports", {data:[{_img:{"/_ipx/f_webp,q_90,s_407x229/assets/images/images/maier-sports-andrazza-skijacke-maier-sports-5637654604.jpg":"\u002Fassets\u002Fimages\u002Fmaier-sports-andrazza-skijacke-maier-sports-5637654604.webp"}}],fetch:{},mutations:void 0});

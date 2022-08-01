@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/marken/stance", {data:[{_img:{"/_ipx/f_webp,q_90,s_407x229/assets/images/images/stance-herridge-2-pack-skisocken-stance-5637762609.jpg":"\u002Fassets\u002Fimages\u002Fstance-herridge-2-pack-skisocken-stance-5637762609.webp"}}],fetch:{},mutations:void 0});
