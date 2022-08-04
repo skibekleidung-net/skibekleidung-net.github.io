@@ -96,16 +96,16 @@
 
 <script>
 import config from "~/assets/data/config.json";
-import db from "~/utils/database.js";
+import categories from "~/assets/data/categories.json";
 
 export default {
   name: "headerComponent",
   data() {
-    const featuredCategories = db.categories.getFeaturedCategories();
+    // const featuredCategories = db.categories.getFeaturedCategories();
 
     return {
       config,
-      featuredCategories,
+      featuredCategories: categories,
       navigationLinks: config.navigationLinks.filter(
         (x) => !x.subLinks && x.publish
       ),

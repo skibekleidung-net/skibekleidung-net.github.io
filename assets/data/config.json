@@ -44,24 +44,24 @@
         "featureText": "<p class=\"mb-4\">Finden Sie günstige Skibekleidung zu den besten Preisen. Holen Sie sich Rabatt Skibekleidung für Damen, Herren und Kindern von Top-Marken wie Spyder, Helly Hansen und mehr.</p><p>Skibekleidung | Die beste Winter- und Schneesportbekleidung.</p><p>Holen Sie sich die beste Wintersportbekleidung und Skibekleidung zu günstigen Preisen.</p>",
         "index": {
             "title": "Die beste Skibekleidung und Zubehör",
-            "metaDescription": "Wenn Sie die beste Skibekleidung kaufen wollen, dann kommen sind Sie bei uns absolut richtig.",
+            "metaDescription": "Finde die richtige Skibekleidung für deinen Skiunterwäsche, Skijacken, Skihosen, Skihandschuhe und Ski-Accessoires in unserem Online Shop für Skibekleidung.",
             "robots": "index, follow"
         },
         "shop": {
-            "title": "Alle Produkte im Überblick.",
-            "metaDescription": "Kaufen Sie Skibekleidung online und erhalten Sie die besten Angebote für Skijacken, Hosen, Handschuhe und mehr.",
+            "title": "Shop für Skibekleidung",
+            "metaDescription": "Kaufen Sie Skibekleidung online und erhalten Sie die besten Angebote für Skijacken, Skihosen, Skihandschuhe und mehr.",
             "robots": "index, follow"
         },
         "hersteller": {
-            "title": "Alle Marken im Überblick",
+            "title": "Alle Marken für Skibekleidung im Überblick",
             "metaDescription": "Auf der Suche nach individueller Skibekleidung oder Snowboardbekleidung? Hier hast du alle hochwertigen Marken im Überblick für den nächsten Winterausflug.",
             "robots": "index, follow"
         }
     },
     "productSeo": {
-        "defaultTitle": "$PRODUKT günstig Skibekleidung kaufen | Online-Shop",
-        "defaultMetaDescription": "$PRODUKT vom $HERSTELLER günstig kaufen. Vergleiche die $PRODUKT mit anderen Produkten aus der Kategorie $KATEGORIE.",
-        "defaultRobots": "noindex, follow",
+        "defaultTitle": "$PRODUKT bestellen | Skibekleidung.net",
+        "defaultMetaDescription": "$PRODUKT vom $HERSTELLER zum fairen Preis online bestellen. Das Produkt $PRODUKT ist auf Lager und kann sofort geliefert werden.",
+        "defaultRobots": "index, follow",
         "products": [{
             "sku": "5637909794",
             "name": "Ortovox PALA PANTS Kletterhose",
@@ -73,9 +73,9 @@
         }]
     },
     "categorySeo": {
-        "defaultTitle": "$KATEGORIE | skibekleidung.net Shop",
-        "defaultMetaDescription": "Alle $KATEGORIE im Überblick. Produkte und Testsieger.",
-        "defaultRobots": "noindex, follow",
+        "defaultTitle": "$KATEGORIE | Skibekleidung.net",
+        "defaultMetaDescription": "Alle $KATEGORIE im Überblick. Finde den Testsieger in der Kategorie $KATEGORIE auf Skibekleidung.net.",
+        "defaultRobots": "index, follow",
         "categories": [{
             "key": "Skibekleidung",
             "slug": "Skibekleidung",
@@ -88,9 +88,9 @@
         }]
     },
     "brandSeo": {
-        "defaultTitle": "Produkte von $HERSTELLER | skibekleidung.net Shop",
-        "defaultMetaDescription": "Alle Produkte von $HERSTELLER im Überblick im skibekleidung.net Shop. Absolut günstige Preise zu top Qualität.",
-        "defaultRobots": "noindex, follow",
+        "defaultTitle": "Produkte von $HERSTELLER | Skibekleidung.net",
+        "defaultMetaDescription": "Alle Produkte von $HERSTELLER im Überblick auf Skibekleidung.net. Unser Shop bietet den besten Preis für Skibekleidung.",
+        "defaultRobots": "index, follow",
         "brands": [{
                 "key": "The North Face",
                 "name": "The North Face",

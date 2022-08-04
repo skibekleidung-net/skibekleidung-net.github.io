@@ -58,7 +58,8 @@ export default {
     buildModules: [
         'nuxt-purgecss',
         '@nuxtjs/google-fonts',
-        '@nuxt/image'
+        '@nuxt/image',
+        '@/modules/sitemapRouteGenerator'
     ],
 
     purgeCSS: {
