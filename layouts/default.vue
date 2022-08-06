@@ -16,4 +16,10 @@
   font-weight: bold;
   color: #06bbcc;
 }
+
+/* no link style class */
+.noLinkStyle {
+  color: inherit;
+  text-decoration: none;
+}
 </style>
