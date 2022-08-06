@@ -53,7 +53,15 @@
           ></small>
           <small>({{ product.reviewCount }})</small>
         </div>
-        <div class="mb-4 h5">{{ product.name }}</div>
+        <div class="mb-4 h5">
+          <nuxt-link
+            :to="`/produkt/${product.slug}/`"
+            class="noLinkStyle"
+            :title="product.name"
+          >
+            {{ product.name }}
+          </nuxt-link>
+        </div>
       </div>
       <div class="d-flex border-top">
         <small class="flex-fill text-center border-end py-2"
