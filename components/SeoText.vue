@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" v-if="seoData && seoData.texts">
     <div class="row g-5">
       <div class="col-lg-8 fadeInUp" style="min-height: 400px">
         <div v-if="seoData && seoData.texts">
@@ -14,19 +14,10 @@
 </template>
 
 <script>
-import config from "~/assets/data/config.json";
-
 export default {
   name: "seoText",
   props: {
-    page: String,
-  },
-  data() {
-    const seoData = config.seo["index"];
-
-    return {
-      seoData,
-    };
+    seoData: Object,
   },
 };
 </script>

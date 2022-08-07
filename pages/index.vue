@@ -19,7 +19,7 @@
 
     <PopularProducts />
 
-    <!-- <SeoText page="index" /> -->
+    <SeoText :seoData="seoData" />
 
     <!-- <Hersteller /> -->
 
@@ -31,25 +31,28 @@
 import config from "~/assets/data/config.json";
 import products from "~/assets/data/products.json";
 
+const seoData = config.seo.index;
+
 export default {
   name: "IndexPage",
   head: {
-    title: config.seo.index.title,
+    title: seoData.title,
     meta: [
       {
         hid: "description",
         name: "description",
-        content: config.seo.index.metaDescription,
+        content: seoData.metaDescription,
       },
       {
         hid: "robots",
         name: "robots",
-        content: config.seo.index.robots,
+        content: seoData.robots,
       },
     ],
   },
-  asyncData: () => {
+  data() {
     return {
+      seoData,
       config,
       products: products.slice(0, config.numberOfProductsOnStartpage),
     };
