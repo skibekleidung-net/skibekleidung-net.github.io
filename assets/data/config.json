@@ -46,7 +46,40 @@
         "index": {
             "title": "Die beste Skibekleidung und Zubehör",
             "metaDescription": "Finde die richtige Skibekleidung für deinen Skiunterwäsche, Skijacken, Skihosen, Skihandschuhe und Ski-Accessoires in unserem Online Shop für Skibekleidung.",
-            "robots": "index, follow"
+            "robots": "index, follow",
+            "texts": [{
+                    "title": "Willkommen bei Skibekleidung - Ihrem Online-Shop für alle Bedürfnisse im Skisport",
+                    "text": "Unser Online-Shop bietet Ihnen eine große Auswahl an Skibekleidung und Zubehör für jeden Bedarf im Skisport. Von Skihandschuhen und Ski-Accessoires bis hin zu Skijacken, Skihosen und Funktionsshirts - wir haben alles, was Sie für einen erfolgreichen Skitag brauchen."
+                },
+                {
+                    "title": "Skihandschuhe und Ski-Accessoires",
+                    "text": "Suchen Sie nach hochwertigen und bequemen Skihandschuhen für Ihren nächsten Skitag? Unser Online-Shop bietet eine breite Auswahl an Skihandschuhen und Ski-Accessoires, die Ihnen eine optimale Performance und Komfort bieten. Stöbern Sie jetzt durch unsere Kategorie <a href=\"/kategorie/skihandschuhe-und-ski-accessoires/\" title=\"Skihandschuhe und Ski-Accessoires\">Skihandschuhe und Ski-Accessoires</a>."
+                },
+                {
+                    "title": "Skiunterwäsche",
+                    "text": "Für einen angenehmen und warmem Skitag ist die richtige Skibekleidung unerlässlich. Darunter gehört auch die Skibekleidung unter der Skijacke. In unserer Kategorie <a href=\"/kategorie/skiunterwaesche/\" title=\"Skiunterwäsche\">Skiunterwäsche</a> finden Sie eine große Auswahl an Skibekleidung, die Ihnen einen optimalen Schutz und Komfort bietet."
+                },
+                {
+                    "title": "Skijacken",
+                    "text": "Suchen Sie nach einer neuen Skijacke für Ihren nächsten Skitag? In unserer Kategorie <a href=\"/kategorie/skijacken/\" title=\"Skijacken\">Skijacken</a> finden Sie eine große Auswahl an hochwertigen Skijacken, die Ihnen optimalen Schutz und Komfort bieten. Stöbern Sie jetzt durch unsere Kategorie Skijacken."
+                },
+                {
+                    "title": "Skihosen",
+                    "text": "Suchen Sie nach einer neuen Skihose für Ihren nächsten Skitag? In unserer Kategorie <a href=\"/kategorie/skihosen/\" title=\"Skihosen\">Skihosen</a> finden Sie eine große Auswahl an hochwertigen Skihosen, die Ihnen optimalen Schutz und Komfort bieten. Stöbern Sie jetzt durch unsere Kategorie Skihosen."
+                },
+                {
+                    "title": "Langlaufjacken und Langlaufwesten",
+                    "text": "Suchen Sie nach einer neuen Langlaufjacke oder Langlaufweste für Ihren nächsten Langlauftag? In unserer Kategorie <a href=\"/kategorie/langlaufjacken-und-langlaufwesten/\" title=\"Langlaufjacken und Langlaufwesten\">Langlaufjacken und Langlaufwesten</a> finden Sie eine große Auswahl an hochwertigen Langlaufjacken und Langlaufwesten, die Ihnen optimalen Schutz und Komfort bieten. Stöbern Sie jetzt durch unsere Kategorie Langlaufjacken und Langlaufwesten."
+                },
+                {
+                    "title": "Skipullover und Funktionsshirts",
+                    "text": "Suchen Sie nach einem neuen Skipullover oder Funktionsshirt für Ihren nächsten Skitag? In unserer Kategorie <a href=\"/kategorie/skipullover-und-funktionsshirts/\" title=\"Skipullover und Funktionsshirts\">Skipullover und Funktionsshirts</a> finden Sie eine große Auswahl an hochwertigen Skipullovern und Funktionsshirts, die Ihnen optimalen Schutz und Komfort bieten. Stöbern Sie jetzt durch unsere Kategorie Skipullover und Funktionsshirts."
+                },
+                {
+                    "title": "Auf Wiedersehen bei Skibekleidung",
+                    "text": "Vielen Dank, dass Sie uns besucht haben. Wir hoffen, dass Sie alles gefunden haben, was Sie für Ihren nächsten Skitag benötigen. Besuchen Sie uns bald wieder bei Skibekleidung für mehr großartige Angebote und Produkte im Bereich Skibekleidung."
+                }
+            ]
         },
         "shop": {
             "title": "Shop für Skibekleidung",
