@@ -32,12 +32,14 @@
         "Skihandschuhe und Ski-Accessoires",
         "Skipullover und Funktionsshirts"
     ],
-    "socialMediaAccounts": [{
-        "name": "Twitter",
-        "link": "https://www.twitter.com/skibekleidung-net",
-        "iconClass": "fab fa-twitter",
-        "published": false
-    }],
+    "socialMediaAccounts": [
+        {
+            "name": "Twitter",
+            "link": "https://www.twitter.com/skibekleidung-net",
+            "iconClass": "fab fa-twitter",
+            "published": false
+        }
+    ],
     "imageQuality": 90,
     "seo": {
         "htmlLang": "de",
@@ -47,39 +49,39 @@
             "title": "Die beste Skibekleidung und Zubehör",
             "metaDescription": "Finde die richtige Skibekleidung für deinen Skiunterwäsche, Skijacken, Skihosen, Skihandschuhe und Ski-Accessoires in unserem Online Shop für Skibekleidung.",
             "robots": "index, follow",
-            "texts": [{
-                    "title": "Willkommen bei Skibekleidung - Ihrem Online-Shop für alle Bedürfnisse im Skisport",
-                    "text": "Unser Online-Shop bietet Ihnen eine große Auswahl an Skibekleidung und Zubehör für jeden Bedarf im Skisport. Von Skihandschuhen und Ski-Accessoires bis hin zu Skijacken, Skihosen und Funktionsshirts - wir haben alles, was Sie für einen erfolgreichen Skitag brauchen."
-                },
-                {
-                    "title": "Skihandschuhe und Ski-Accessoires",
-                    "text": "Suchen Sie nach hochwertigen und bequemen Skihandschuhen für Ihren nächsten Skitag? Unser Online-Shop bietet eine breite Auswahl an Skihandschuhen und Ski-Accessoires, die Ihnen eine optimale Performance und Komfort bieten. Stöbern Sie jetzt durch unsere Kategorie <a href=\"/kategorie/skihandschuhe-und-ski-accessoires/\" title=\"Skihandschuhe und Ski-Accessoires\">Skihandschuhe und Ski-Accessoires</a>."
-                },
-                {
-                    "title": "Skiunterwäsche",
-                    "text": "Für einen angenehmen und warmem Skitag ist die richtige Skibekleidung unerlässlich. Darunter gehört auch die Skibekleidung unter der Skijacke. In unserer Kategorie <a href=\"/kategorie/skiunterwaesche/\" title=\"Skiunterwäsche\">Skiunterwäsche</a> finden Sie eine große Auswahl an Skibekleidung, die Ihnen einen optimalen Schutz und Komfort bietet."
-                },
-                {
-                    "title": "Skijacken",
-                    "text": "Suchen Sie nach einer neuen Skijacke für Ihren nächsten Skitag? In unserer Kategorie <a href=\"/kategorie/skijacken/\" title=\"Skijacken\">Skijacken</a> finden Sie eine große Auswahl an hochwertigen Skijacken, die Ihnen optimalen Schutz und Komfort bieten. Stöbern Sie jetzt durch unsere Kategorie Skijacken."
-                },
-                {
-                    "title": "Skihosen",
-                    "text": "Suchen Sie nach einer neuen Skihose für Ihren nächsten Skitag? In unserer Kategorie <a href=\"/kategorie/skihosen/\" title=\"Skihosen\">Skihosen</a> finden Sie eine große Auswahl an hochwertigen Skihosen, die Ihnen optimalen Schutz und Komfort bieten. Stöbern Sie jetzt durch unsere Kategorie Skihosen."
-                },
-                {
-                    "title": "Langlaufjacken und Langlaufwesten",
-                    "text": "Suchen Sie nach einer neuen Langlaufjacke oder Langlaufweste für Ihren nächsten Langlauftag? In unserer Kategorie <a href=\"/kategorie/langlaufjacken-und-langlaufwesten/\" title=\"Langlaufjacken und Langlaufwesten\">Langlaufjacken und Langlaufwesten</a> finden Sie eine große Auswahl an hochwertigen Langlaufjacken und Langlaufwesten, die Ihnen optimalen Schutz und Komfort bieten. Stöbern Sie jetzt durch unsere Kategorie Langlaufjacken und Langlaufwesten."
-                },
-                {
-                    "title": "Skipullover und Funktionsshirts",
-                    "text": "Suchen Sie nach einem neuen Skipullover oder Funktionsshirt für Ihren nächsten Skitag? In unserer Kategorie <a href=\"/kategorie/skipullover-und-funktionsshirts/\" title=\"Skipullover und Funktionsshirts\">Skipullover und Funktionsshirts</a> finden Sie eine große Auswahl an hochwertigen Skipullovern und Funktionsshirts, die Ihnen optimalen Schutz und Komfort bieten. Stöbern Sie jetzt durch unsere Kategorie Skipullover und Funktionsshirts."
-                },
-                {
-                    "title": "Auf Wiedersehen bei Skibekleidung",
-                    "text": "Vielen Dank, dass Sie uns besucht haben. Wir hoffen, dass Sie alles gefunden haben, was Sie für Ihren nächsten Skitag benötigen. Besuchen Sie uns bald wieder bei Skibekleidung für mehr großartige Angebote und Produkte im Bereich Skibekleidung."
-                }
-            ]
+            "seotext": {
+                "published": true,
+                "content": [
+                    {
+                        "title": "Willkommen bei Skibekleidung.net!",
+                        "text": "Herzlich Willkommen auf unserer Website Skibekleidung.net! Wir sind ein Online-Shop, der sich ganz auf Skibekleidung spezialisiert hat. Bei uns finden Sie eine große Auswahl an Produkten, die Sie bei Ihrem nächsten Skiausflug perfekt ausstatten werden.Unsere Produktkategorien reichen von Skijacken über Skihosen bis hin zu Skiunterwäsche und Skihandschuhen. Darüber hinaus bieten wir auch Langlaufjacken und -westen sowie Skipullover und Funktionsshirts an. Alle Produkte werden von uns sorgfältig ausgewählt, um Ihnen höchste Qualität und optimalen Tragekomfort zu garantieren.Wir legen großen Wert auf eine benutzerfreundliche Website, auf der Sie bequem und einfach das passende Produkt für sich finden können. Durch unsere übersichtliche Navigation und die detaillierten Produktbeschreibungen können Sie sich schnell einen Überblick über unser Angebot verschaffen.Wir sind stets bemüht, Ihnen den bestmöglichen Service zu bieten. Sollten Sie Fragen zu unseren Produkten oder zu Ihrer Bestellung haben, steht Ihnen unser Kundensupport jederzeit zur Verfügung.Also, worauf warten Sie noch? Stöbern Sie jetzt durch unser Angebot und finden Sie die perfekte Skibekleidung für Ihren nächsten Skiausflug!"
+                    },
+                    {
+                        "title": "Skihandschuhe und Ski-Accessoires",
+                        "text": "Entdecken Sie unser breites Angebot an Skihandschuhen und Ski-Accessoires. Wir bieten hochwertige Produkte von renommierten Marken, um Ihnen eine angenehme und sichere Erfahrung auf den Pisten zu ermöglichen. Unsere Skihandschuhe halten Ihre Hände warm und bieten gleichzeitig eine gute Griffigkeit für Ihre Stöcke. Die Ski-Accessoires, wie z.B. Mützen, Schals und Brillen, runden Ihre Ausrüstung perfekt ab. Schauen Sie sich jetzt um und finden Sie das perfekte Set für Ihren nächsten Skitrip."
+                    },
+                    {
+                        "title": "Skiunterwäsche",
+                        "text": "Eine gute Skiausrüstung beginnt mit der richtigen Unterwäsche. Wir bieten Ihnen eine große Auswahl an hochwertiger <a href=\"/kategorie/skiunterwaesche/\" title=\"Skiunterwäsche\">Skiunterwäsche</a>, die Ihnen auch bei kalten Bedingungen ein angenehmes Tragegefühl bietet. Unsere Funktionsunterwäsche ist atmungsaktiv, schnelltrocknend und hält Sie warm. Schauen Sie sich jetzt um und finden Sie die perfekte Skiunterwäsche für Ihre nächste Abfahrt."
+                    },
+                    {
+                        "title": "Skijacken",
+                        "text": "Eine gute Skijacke ist unverzichtbar für einen erfolgreichen Skitag. Wir bieten Ihnen eine große Auswahl an hochwertigen <a href=\"/kategorie/skijacken/\" title=\"Skijacken\">Skijacken</a> von renommierten Marken. Unsere Jacken sind wasserdicht, atmungsaktiv und warm, um Sie vor den Elementen zu schützen. Außerdem bieten sie Ihnen viel Bewegungsfreiheit, damit Sie sich frei auf den Pisten bewegen können. Schauen Sie sich jetzt um und finden Sie Ihre neue Skijacke bei uns."
+                    },
+                    {
+                        "title": "Skihosen",
+                        "text": "Entdecken Sie unsere breite Auswahl an <a href=\"/kategorie/skihosen/\" title=\"Skihosen\">Skihosen</a> für Damen und Herren. Unsere Hosen bieten Ihnen Schutz vor den Elementen, hohen Tragekomfort und Bewegungsfreiheit. Wir führen hochwertige Skihosen von renommierten Marken, die Sie vor Feuchtigkeit und Kälte schützen. Außerdem sind viele unserer Hosen mit praktischen Taschen und verstellbaren Taillen ausgestattet. Schauen Sie sich jetzt um und finden Sie die perfekte Skihose für Ihre nächste Abfahrt."
+                    },
+                    {
+                        "title": "Langlaufjacken und Langlaufwesten",
+                        "text": "Entdecken Sie unsere breite Auswahl an <a href=\"/kategorie/langlaufjacken-und-langlaufwesten/\" title=\"Langlaufjacken und Langlaufwesten\">Langlaufjacken und Langlaufwesten</a>. Unsere Jacken und Westen bieten Ihnen Schutz vor den Elementen, hohen Tragekomfort und Bewegungsfreiheit. Wir führen hochwertige Produkte von renommierten Marken, die Sie vor Feuchtigkeit und Kälte schützen. Außerdem sind viele unserer Jacken und Westen mit praktischen Taschen und verstellbaren Taillen ausgestattet. Schauen Sie sich jetzt um und finden Sie die perfekte Langlaufjacke oder Langlaufweste für Ihre nächste Tour."
+                    },
+                    {
+                        "title": "Skipullover und Funktionsshirts",
+                        "text": "Entdecken Sie unsere breite Auswahl an Skipullovern und Funktionsshirts. Unsere Pullover und Shirts bieten Ihnen Schutz vor den Elementen, hohen Tragekomfort und Bewegungsfreiheit. Wir führen hochwertige Produkte von renommierten Marken, die Sie vor Feuchtigkeit und Kälte schützen. Außerdem sind viele unserer Pullover und Shirts atmungsaktiv und schnelltrocknend. Schauen Sie sich jetzt um und finden Sie den perfekten Skipullover oder Funktionsshirt für Ihre nächste Abfahrt."
+                    }
+                ]
+            }
         },
         "shop": {
             "title": "Shop für Skibekleidung",
@@ -96,36 +98,41 @@
         "defaultTitle": "$PRODUKT bestellen | Skibekleidung.net",
         "defaultMetaDescription": "$PRODUKT vom $HERSTELLER zum fairen Preis online bestellen. Das Produkt $PRODUKT ist auf Lager und kann sofort geliefert werden.",
         "defaultRobots": "index, follow",
-        "products": [{
-            "sku": "5637909794",
-            "name": "Ortovox PALA PANTS Kletterhose",
-            "seo": {
-                "title": "Ortovox PALA PANTS Kletterhose günstig kaufen auf $DOMAIN",
-                "metaDescription": "DESC: Ortovox PALA PANTS Kletterhose von Ortovox günstig kaufen auf $DOMAIN. Testsieger in der Kategorie Softshellhosen.",
-                "robots": "index, follow"
+        "products": [
+            {
+                "sku": "5637909794",
+                "name": "Ortovox PALA PANTS Kletterhose",
+                "seo": {
+                    "title": "Ortovox PALA PANTS Kletterhose günstig kaufen auf $DOMAIN",
+                    "metaDescription": "DESC: Ortovox PALA PANTS Kletterhose von Ortovox günstig kaufen auf $DOMAIN. Testsieger in der Kategorie Softshellhosen.",
+                    "robots": "index, follow"
+                }
             }
-        }]
+        ]
     },
     "categorySeo": {
         "defaultTitle": "$KATEGORIE | Skibekleidung.net",
         "defaultMetaDescription": "Alle $KATEGORIE im Überblick. Finde den Testsieger in der Kategorie $KATEGORIE auf Skibekleidung.net.",
         "defaultRobots": "index, follow",
-        "categories": [{
-            "key": "Skibekleidung",
-            "slug": "Skibekleidung",
-            "name": "Skibekleidung",
-            "seo": {
-                "title": "Skibekleidung und Skiausrüstung günstig kaufen auf §DOMAIN",
-                "metaDescription": "Kaufen Sie hochwertige Skibekleidung wie Skijacken, Snowboardjacken, Wintermäntel und mehr zu günstigen Preisen. Finden Sie die neuesten Stile der Herren und Damen Skibekleidung",
-                "robots": "index, follow"
+        "categories": [
+            {
+                "key": "Skibekleidung",
+                "slug": "Skibekleidung",
+                "name": "Skibekleidung",
+                "seo": {
+                    "title": "Skibekleidung und Skiausrüstung günstig kaufen auf §DOMAIN",
+                    "metaDescription": "Kaufen Sie hochwertige Skibekleidung wie Skijacken, Snowboardjacken, Wintermäntel und mehr zu günstigen Preisen. Finden Sie die neuesten Stile der Herren und Damen Skibekleidung",
+                    "robots": "index, follow"
+                }
             }
-        }]
+        ]
     },
     "brandSeo": {
         "defaultTitle": "Produkte von $HERSTELLER | Skibekleidung.net",
         "defaultMetaDescription": "Alle Produkte von $HERSTELLER im Überblick auf Skibekleidung.net. Unser Shop bietet den besten Preis für Skibekleidung.",
         "defaultRobots": "index, follow",
-        "brands": [{
+        "brands": [
+            {
                 "key": "The North Face",
                 "name": "The North Face",
                 "seo": {
@@ -156,7 +163,8 @@
         "Nachhaltig",
         "Ergonomisch"
     ],
-    "navigationLinks": [{
+    "navigationLinks": [
+        {
             "title": "Home",
             "linkTo": "/",
             "linkTitle": "Skibekleidung",
