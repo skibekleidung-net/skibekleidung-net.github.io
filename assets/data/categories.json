@@ -1,1 +1,44 @@
-[{"key": "skihandschuhe und ski-accessoires", "name": "Skihandschuhe und Ski-Accessoires", "slug": "skihandschuhe-und-ski-accessoires", "productCategory": "Skihandschuhe und Ski-Accessoires", "subCategories": []}, {"key": "skiunterwäsche", "name": "Skiunterwäsche", "slug": "skiunterwaesche", "productCategory": "Skiunterwäsche", "subCategories": []}, {"key": "skijacken", "name": "Skijacken", "slug": "skijacken", "productCategory": "Skijacken", "subCategories": []}, {"key": "skihosen", "name": "Skihosen", "slug": "skihosen", "productCategory": "Skihosen", "subCategories": []}, {"key": "langlaufjacken und langlaufwesten", "name": "Langlaufjacken und Langlaufwesten", "slug": "langlaufjacken-und-langlaufwesten", "productCategory": "Langlaufjacken und Langlaufwesten", "subCategories": []}, {"key": "skipullover und funktionsshirts", "name": "Skipullover und Funktionsshirts", "slug": "skipullover-und-funktionsshirts", "productCategory": "Skipullover und Funktionsshirts", "subCategories": []}]
+[
+    {
+        "key": "skihandschuhe und ski-accessoires",
+        "name": "Skihandschuhe und Ski-Accessoires",
+        "slug": "skihandschuhe-und-ski-accessoires",
+        "productCategory": "Skihandschuhe und Ski-Accessoires",
+        "subCategories": []
+    },
+    {
+        "key": "skiunterwäsche",
+        "name": "Skiunterwäsche",
+        "slug": "skiunterwaesche",
+        "productCategory": "Skiunterwäsche",
+        "subCategories": []
+    },
+    {
+        "key": "skijacken",
+        "name": "Skijacken",
+        "slug": "skijacken",
+        "productCategory": "Skijacken",
+        "subCategories": []
+    },
+    {
+        "key": "skihosen",
+        "name": "Skihosen",
+        "slug": "skihosen",
+        "productCategory": "Skihosen",
+        "subCategories": []
+    },
+    {
+        "key": "langlaufjacken und langlaufwesten",
+        "name": "Langlaufjacken und Langlaufwesten",
+        "slug": "langlaufjacken-und-langlaufwesten",
+        "productCategory": "Langlaufjacken und Langlaufwesten",
+        "subCategories": []
+    },
+    {
+        "key": "skipullover und funktionsshirts",
+        "name": "Skipullover und Funktionsshirts",
+        "slug": "skipullover-und-funktionsshirts",
+        "productCategory": "Skipullover und Funktionsshirts",
+        "subCategories": []
+    }
+]
