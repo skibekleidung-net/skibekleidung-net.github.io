@@ -21,6 +21,9 @@
  */
 
 
+/*! https://mths.be/he v1.2.0 by @mathias | MIT license */
+
+
 /*!
   * vue-router v3.5.3
   * (c) 2021 Evan You
@@ -32,6 +35,3 @@
  * (c) 2014-2021 Evan You
  * Released under the MIT License.
  */
-
-
-/*! https://mths.be/he v1.2.0 by @mathias | MIT license */
