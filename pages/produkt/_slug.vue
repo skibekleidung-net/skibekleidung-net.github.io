@@ -12,15 +12,13 @@
       <div class="container">
         <div class="row g-5">
           <div class="col-lg-8 fadeInUp" style="min-height: 400px">
-            <h2 class="mb-4">{{ product.name }}</h2>
+            <h2 class="mb-4" v-if="!seoData">{{ product.name }}</h2>
             <div v-if="seoData && seoData.seo && seoData.seo.texts">
               <div v-for="(text, index) in seoData.seo.texts" :key="index">
                 <div class="mb-3 mt-5 h5">
-                  {{ text.title }}
+                  <h2>{{ text.title }}</h2>
                 </div>
-                <p class="mb-4">
-                  {{ text.text }}
-                </p>
+                <p class="mb-4" v-html="text.text"></p>
               </div>
             </div>
 
@@ -29,9 +27,10 @@
               class="btn btn-primary py-3 px-5"
               target="_blank"
               rel="nofollow noopener"
-              :href="product.shopLink"
-              >Bestellen</a
+              :href="affiliateLink"
             >
+              Bestellen
+            </a>
           </div>
           <div class="col-lg-4 fadeInUp">
             <ProductCard :product="product" />
@@ -40,15 +39,17 @@
                 class="btn btn-primary py-3 px-5"
                 target="_blank"
                 rel="nofollow noopener"
-                :href="product.shopLink"
+                :href="affiliateLink"
                 style="display: block; width: 100%"
-                >{{ product.brand }} Online Shop</a
               >
+                {{ product.brand }} Online Shop
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
+
     <div class="container">
       <div class="text-center fadeInUp">
         <div class="section-title bg-white text-center text-primary px-3 h6">
@@ -67,6 +68,10 @@
 import config from "~/assets/data/config.json";
 import products from "~/assets/data/products.json";
 import db from "~/utils/database.js";
+
+function customEncodeURI(str) {
+  return str.split(" ").join("+");
+}
 
 export default {
   name: "product",
@@ -116,7 +121,7 @@ export default {
     const slug = this.$route.params.slug;
     const product = db.products.getProductFromSlug(slug);
     const seoData = db.seo.getSeoForProduct(product);
-    const category = db.categories.getCategoryNameForProduct(product);
+    const category = product.categories[product.categories.length - 2];
     // const relevantProducts = db.products.getRandomProductsFromCategory(
     //   category,
     //   config.numberOfRelevantProduct
@@ -132,6 +137,25 @@ export default {
       category,
       relevantProducts,
     };
+  },
+  computed: {
+    affiliateLink() {
+      const defaultLink = this.config.affiliate.defaultLink;
+      const productName = customEncodeURI(this.product.name);
+      const url = new URL(defaultLink);
+
+      // Delete the existing 'k' and 'sprefix' parameters
+      url.searchParams.delete("k");
+      url.searchParams.delete("sprefix");
+
+      // Add the new 'k' and 'sprefix' parameters
+      const queryString = `k=${productName}&sprefix=${productName}`;
+      url.search = url.search
+        ? `${url.search}&${queryString}`
+        : `?${queryString}`;
+
+      return url.toString();
+    },
   },
   jsonld() {
     return {
