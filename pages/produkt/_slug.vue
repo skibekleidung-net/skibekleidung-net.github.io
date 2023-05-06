@@ -136,26 +136,41 @@ export default {
       seoData,
       category,
       relevantProducts,
+      affiliateLink: config.affiliate.defaultLink,
     };
   },
-  computed: {
-    affiliateLink() {
-      const defaultLink = this.config.affiliate.defaultLink;
-      const productName = customEncodeURI(this.product.name);
-      const url = new URL(defaultLink);
+  methods: {
+    async fetchAffiliateLink() {
+      try {
+        const response = await fetch(
+          "http://localhost:3001/api/x/generate-link",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              domain: "example.com", // replace with your root domain
+              keyword: this.product.name,
+            }),
+          }
+        );
 
-      // Delete the existing 'k' and 'sprefix' parameters
-      url.searchParams.delete("k");
-      url.searchParams.delete("sprefix");
-
-      // Add the new 'k' and 'sprefix' parameters
-      const queryString = `k=${productName}&sprefix=${productName}`;
-      url.search = url.search
-        ? `${url.search}&${queryString}`
-        : `?${queryString}`;
-
-      return url.toString();
+        if (response.ok) {
+          const data = await response.json();
+          this.affiliateLink = data.affiliateLink;
+        } else {
+          console.error(
+            `Failed to generate affiliate link: ${response.status} ${response.statusText}`
+          );
+        }
+      } catch (error) {
+        console.error(`Error generating affiliate link: ${error}`);
+      }
     },
+  },
+  created() {
+    this.fetchAffiliateLink();
   },
   jsonld() {
     return {
