@@ -143,7 +143,7 @@ export default {
     async fetchAffiliateLink() {
       try {
         const response = await fetch(
-          "http://localhost:3001/api/x/generate-link",
+          "https://api.surrealnetworks.io/apix/generate-link",
           {
             method: "POST",
             headers: {
