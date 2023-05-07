@@ -24,7 +24,7 @@ jobs:
         run: npm ci
 
       - name: Generate
-        run: npm run generate
+        run: NODE_OPTIONS="--max-old-space-size=4096" npm run generate
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
@@ -32,17 +32,18 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
 
-  success:
-    name: One with everything
-    runs-on: ubuntu-18.04
-    steps:
-      - uses: actions/checkout@master
-      - name: Microsoft Teams Notification
-        uses: skitionek/notify-microsoft-teams@master
-        if: always()
-        with:
-          webhook_url: ${{ secrets.MSTEAMS_WEBHOOK }}
-          needs: ${{ toJson(needs) }}
-          job: ${{ toJson(job) }}
-          steps: ${{ toJson(steps) }}
-          dry_run: False
+
+  # success:
+  #   name: One with everything
+  #   runs-on: ubuntu-18.04
+  #   steps:
+  #     - uses: actions/checkout@master
+  #     - name: Microsoft Teams Notification
+  #       uses: skitionek/notify-microsoft-teams@master
+  #       if: always()
+  #       with:
+  #         webhook_url: ${{ secrets.MSTEAMS_WEBHOOK }}
+  #         needs: ${{ toJson(needs) }}
+  #         job: ${{ toJson(job) }}
+  #         steps: ${{ toJson(steps) }}
+  #         dry_run: False
