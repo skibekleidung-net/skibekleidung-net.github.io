@@ -61,7 +61,9 @@
                   <nuxt-img
                     preset="footerThumbnail"
                     class="img-fluid bg-light p-1"
-                    :src="`${config.imageFolder}${product.localThumb}`"
+                    :src="product.localThumbs && product.localThumbs.length > 0
+                      ? `${config.imageFolder}${product.localThumbs[0].toString()}`
+                      : `${config.imageFolder}${product.localThumb}`"
                     :alt="product.linkTitle"
                   />
                 </NuxtLink>
@@ -112,6 +114,8 @@
               <div class="footer-menu">
                 <nuxt-link to="/" :title="config.title">Home</nuxt-link>
                 <a href="#testsieger">Testsieger</a>
+                <nuxt-link to="/impressum/">Impressum</nuxt-link>
+                <nuxt-link to="/datenschutz/">Datenschutz</nuxt-link>
                 <!-- <a href="#hilfe">Hilfe</a>
                 <a href="#faq">FAQs</a> -->
               </div>
