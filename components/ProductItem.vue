@@ -97,16 +97,15 @@ export default {
       return getProductThumbnail(this.product);
     },
     categoryData() {
-      let categoryName = this.product.category;
-      if (
-        !categoryName &&
-        this.product.categories &&
-        this.product.categories.length > 1
-      ) {
-        categoryName =
-          this.product.categories[this.product.categories.length - 2];
-      }
-      return categories.find((category) => category.name === categoryName);
+      let categoryName =
+        this.product.category ||
+        this.product.categories[this.product.categories.length - 2];
+
+      return categories.find(
+        (c) =>
+          c.name === categoryName ||
+          c.subCategories.find((sc) => sc.name === categoryName)
+      );
     },
     brandData() {
       return brands.find((brand) => brand.name === this.product.brand);
