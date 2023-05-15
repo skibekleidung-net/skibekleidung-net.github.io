@@ -35,7 +35,7 @@
               rel="nofollow noopener"
               style="display: block; width: 100%"
             >
-              Bestellen
+              In den Warenkorb
             </button>
           </div>
           <div class="col-lg-4 fadeInUp">
@@ -53,7 +53,7 @@
                 rel="nofollow noopener"
                 style="display: block; width: 100%"
               >
-                Bestellen
+                In den Warenkorb
               </button>
             </div>
           </div>

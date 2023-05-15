@@ -50,13 +50,22 @@
         </li>
 
         <hr />
+
+        <li class="d-flex justify-content-between align-items-center">
+          <span>vorraussichtliche Lieferzeit</span>
+          <span>5 Tage</span>
+        </li>
       </ul>
+
+      <hr />
+
       <div class="sidebar-contact-info mt-4">
         <p class="mb-0">Preis</p>
         <div class="h3">
           {{ calculatedPrice }}
           EUR
         </div>
+        <div class="h6">Versand inklusive</div>
       </div>
     </div>
   </div>

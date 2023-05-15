@@ -83,6 +83,11 @@
 
           <!-- end subLinks -->
         </div>
+        <div>
+          <button class="btn snipcart-checkout">
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+        </div>
         <a
           href="/#testsieger"
           class="btn btn-primary py-4 px-lg-5 d-none d-lg-block"
@@ -114,3 +119,11 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.fas.fa-shopping-cart {
+  font-size: 24px; /* Adjust the size as needed */
+  padding-right: 20px;
+  color: #068a97;
+}
+</style>
