@@ -23,8 +23,8 @@
             </div>
 
             <Checklist />
-            <button
-              class="btn btn-primary py-3 px-5 snipcart-add-item"
+            <a
+              class="btn btn-primary py-3 px-5"
               :data-item-id="product.name"
               :data-item-price="calculatedPrice"
               :data-item-description="product.name"
@@ -34,15 +34,16 @@
               target="_blank"
               rel="nofollow noopener"
               style="display: block; width: 100%"
+              :href="product.shopLink"
             >
-              In den Warenkorb
-            </button>
+              Bestellen
+          </a>
           </div>
           <div class="col-lg-4 fadeInUp">
             <ProductCard :product="product" />
             <div class="mt-5">
-              <button
-                class="btn btn-primary py-3 px-5 snipcart-add-item"
+              <a
+                class="btn btn-primary py-3 px-5"
                 :data-item-id="product.name"
                 :data-item-price="calculatedPrice"
                 :data-item-description="product.name"
@@ -52,9 +53,10 @@
                 target="_blank"
                 rel="nofollow noopener"
                 style="display: block; width: 100%"
+                :href="product.shopLink"
               >
-                In den Warenkorb
-              </button>
+                Bestellen
+              </a>
             </div>
           </div>
         </div>
