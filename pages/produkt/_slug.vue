@@ -36,7 +36,7 @@
               style="display: block; width: 100%"
               :href="product.shopLink"
             >
-              Bestellen
+              Bestellen *
           </a>
           </div>
           <div class="col-lg-4 fadeInUp">
@@ -55,7 +55,7 @@
                 style="display: block; width: 100%"
                 :href="product.shopLink"
               >
-                Bestellen
+                Bestellen *
               </a>
             </div>
           </div>

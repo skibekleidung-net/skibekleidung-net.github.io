@@ -83,11 +83,6 @@
 
           <!-- end subLinks -->
         </div>
-        <div>
-          <button class="btn snipcart-checkout">
-            <i class="fas fa-shopping-cart"></i>
-          </button>
-        </div>
         <a
           href="/#testsieger"
           class="btn btn-primary py-4 px-lg-5 d-none d-lg-block"

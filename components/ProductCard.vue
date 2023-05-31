@@ -48,13 +48,6 @@
             ></small>
           </div>
         </li>
-
-        <hr />
-
-        <li class="d-flex justify-content-between align-items-center">
-          <span>vorraussichtliche Lieferzeit</span>
-          <span>5 Tage</span>
-        </li>
       </ul>
 
       <hr />
@@ -65,7 +58,6 @@
           {{ calculatedPrice }}
           EUR
         </div>
-        <div class="h6">Versand inklusive</div>
       </div>
     </div>
   </div>
