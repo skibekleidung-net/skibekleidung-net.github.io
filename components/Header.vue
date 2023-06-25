@@ -1,5 +1,11 @@
 <template>
   <div>
+
+    <!-- gads -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3382175535865982"
+     crossorigin="anonymous"></script>
+    <!-- gads end -->
+
     <!-- Navbar Start -->
     <nav
       class="navbar navbar-expand-lg bg-white navbar-light shadow fixed-top p-0"
