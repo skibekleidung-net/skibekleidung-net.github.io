@@ -1,11 +1,7 @@
 <template>
   <div>
-    <ProductHeader
-      :product="product"
-      :productName="product.name"
-      :textContent="product.description"
-      :productImage="getProductThumbnail()"
-    ></ProductHeader>
+    <ProductHeader :product="product" :productName="product.name" :textContent="product.description"
+      :productImage="getProductThumbnail()"></ProductHeader>
 
     <!-- About Start -->
     <div class="container-xxl py-5" id="testbericht">
@@ -23,38 +19,20 @@
             </div>
 
             <Checklist />
-            <a
-              class="btn btn-primary py-3 px-5"
-              :data-item-id="product.name"
-              :data-item-price="calculatedPrice"
-              :data-item-description="product.name"
-              :data-item-url="config.hostname + 'produkt/' + slug"
-              :data-item-image="getProductThumbnail()"
-              :data-item-name="product.name"
-              target="_blank"
-              rel="nofollow noopener"
-              style="display: block; width: 100%"
-              :href="product.shopLink"
-            >
+            <a class="btn btn-primary py-3 px-5" :data-item-id="product.name" :data-item-price="calculatedPrice"
+              :data-item-description="product.name" :data-item-url="config.hostname + 'produkt/' + slug"
+              :data-item-image="getProductThumbnail()" :data-item-name="product.name" target="_blank"
+              rel="nofollow noopener" style="display: block; width: 100%" :href="product.shopLink">
               Bestellen *
-          </a>
+            </a>
           </div>
           <div class="col-lg-4 fadeInUp">
             <ProductCard :product="product" />
             <div class="mt-5">
-              <a
-                class="btn btn-primary py-3 px-5"
-                :data-item-id="product.name"
-                :data-item-price="calculatedPrice"
-                :data-item-description="product.name"
-                :data-item-url="config.hostname + 'produkt/' + slug"
-                :data-item-image="getProductThumbnail()"
-                :data-item-name="product.name"
-                target="_blank"
-                rel="nofollow noopener"
-                style="display: block; width: 100%"
-                :href="product.shopLink"
-              >
+              <a class="btn btn-primary py-3 px-5" :data-item-id="product.name" :data-item-price="calculatedPrice"
+                :data-item-description="product.name" :data-item-url="config.hostname + 'produkt/' + slug"
+                :data-item-image="getProductThumbnail()" :data-item-name="product.name" target="_blank"
+                rel="nofollow noopener" style="display: block; width: 100%" :href="product.shopLink">
                 Bestellen *
               </a>
             </div>
@@ -95,15 +73,15 @@ export default {
       title:
         this.seoData && this.seoData.seo && this.seoData.seo.title
           ? this.seoData.seo.title
-              .replaceAll("$PRODUKT", this.product.name)
-              .replaceAll("$HERSTELLER", this.product.brand)
-              .replaceAll("$KATEGORIE", this.category)
-              .replaceAll("$DOMAIN", this.config.domain)
+            .replaceAll("$PRODUKT", this.product.name)
+            .replaceAll("$HERSTELLER", this.product.brand)
+            .replaceAll("$KATEGORIE", this.category)
+            .replaceAll("$DOMAIN", this.config.domain)
           : config.productSeo.defaultTitle
-              .replaceAll("$PRODUKT", this.product.name)
-              .replaceAll("$HERSTELLER", this.product.brand)
-              .replaceAll("$KATEGORIE", this.category)
-              .replaceAll("$DOMAIN", this.config.domain),
+            .replaceAll("$PRODUKT", this.product.name)
+            .replaceAll("$HERSTELLER", this.product.brand)
+            .replaceAll("$KATEGORIE", this.category)
+            .replaceAll("$DOMAIN", this.config.domain),
       meta: [
         {
           hid: "description",
@@ -111,15 +89,15 @@ export default {
           content:
             this.seoData && this.seoData.seo && this.seoData.seo.metaDescription
               ? this.seoData.seo.metaDescription
-                  .replaceAll("$PRODUKT", this.product.name)
-                  .replaceAll("$HERSTELLER", this.product.brand)
-                  .replaceAll("$KATEGORIE", this.category)
-                  .replaceAll("$DOMAIN", this.config.domain)
+                .replaceAll("$PRODUKT", this.product.name)
+                .replaceAll("$HERSTELLER", this.product.brand)
+                .replaceAll("$KATEGORIE", this.category)
+                .replaceAll("$DOMAIN", this.config.domain)
               : config.productSeo.defaultMetaDescription
-                  .replaceAll("$PRODUKT", this.product.name)
-                  .replaceAll("$HERSTELLER", this.product.brand)
-                  .replaceAll("$KATEGORIE", this.category)
-                  .replaceAll("$DOMAIN", this.config.domain),
+                .replaceAll("$PRODUKT", this.product.name)
+                .replaceAll("$HERSTELLER", this.product.brand)
+                .replaceAll("$KATEGORIE", this.category)
+                .replaceAll("$DOMAIN", this.config.domain),
         },
         {
           hid: "robots",
@@ -168,38 +146,38 @@ export default {
     getProductThumbnail() {
       return getProductThumbnail(this.product);
     },
-    async fetchAffiliateLink() {
-      try {
-        const response = await fetch(
-          "https://api.surrealnetworks.io/api/x/generate-link",
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-              domain: "example.com", // replace with your root domain
-              keyword: this.product.name,
-            }),
-          }
-        );
+    // async fetchAffiliateLink() {
+    //   try {
+    //     const response = await fetch(
+    //       "https://api.surrealnetworks.io/api/x/generate-link",
+    //       {
+    //         method: "POST",
+    //         headers: {
+    //           "Content-Type": "application/json",
+    //         },
+    //         body: JSON.stringify({
+    //           domain: "example.com", // replace with your root domain
+    //           keyword: this.product.name,
+    //         }),
+    //       }
+    //     );
 
-        if (response.ok) {
-          const data = await response.json();
-          this.affiliateLink = data.affiliateLink;
-        } else {
-          console.error(
-            `Failed to generate affiliate link: ${response.status} ${response.statusText}`
-          );
-        }
-      } catch (error) {
-        console.error(`Error generating affiliate link: ${error}`);
-      }
-    },
+    //     if (response.ok) {
+    //       const data = await response.json();
+    //       this.affiliateLink = data.affiliateLink;
+    //     } else {
+    //       console.error(
+    //         `Failed to generate affiliate link: ${response.status} ${response.statusText}`
+    //       );
+    //     }
+    //   } catch (error) {
+    //     console.error(`Error generating affiliate link: ${error}`);
+    //   }
+    // },
   },
-  created() {
-    this.fetchAffiliateLink();
-  },
+  // created() {
+  //   this.fetchAffiliateLink();
+  // },
   jsonld() {
     return {
       "@context": "https://schema.org",
