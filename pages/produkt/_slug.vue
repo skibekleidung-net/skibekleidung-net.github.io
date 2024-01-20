@@ -25,6 +25,11 @@
               rel="nofollow noopener" style="display: block; width: 100%" :href="product.shopLink">
               Bestellen *
             </a>
+            <div class="mt-5">
+              <a href="https://www.globetrotter.de/?utm_source=PTID13012985"><img
+                  src="https://www.asset-cdn.de/storage/globetrotter-partnerprogramm/1-globetrotter-728x90.gif"
+                  alt="" /></a>
+            </div>
           </div>
           <div class="col-lg-4 fadeInUp">
             <ProductCard :product="product" />
@@ -35,6 +40,11 @@
                 rel="nofollow noopener" style="display: block; width: 100%" :href="product.shopLink">
                 Bestellen *
               </a>
+            </div>
+            <div class="mt-5">
+              <a href="https://www.globetrotter.de/?utm_source=PTID13012985"><img
+                  src="https://www.asset-cdn.de/storage/globetrotter-partnerprogramm/1-globetrotter-300x250.gif"
+                  alt="" /></a>
             </div>
           </div>
         </div>
